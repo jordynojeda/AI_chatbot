@@ -18,7 +18,8 @@ import random
 import json
 
 with open("intents.json") as file:  # Open the intents.json file
-   data = json.load(file)          # Assign data to the json file
+   data = json.load(file)           # Assign data to the json file
+   
 
 words = []
 labels = []
